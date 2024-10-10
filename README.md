@@ -32,6 +32,10 @@ Replace `{base_url}` in the following examples with your actual API base URL (e.
 1. For **all** API calls, the `Accept` header must be present: `Accept: application/json`
 2. For **non-public** API calls, the `Authorization` header must be present: ` Authorization: Bearer {token}`
 
+## Postman
+
+For your convenience the Postman API collection is created. Simply import `Laravel-Timesheets-API.postman_collection.json` into your Postman, update the collection level variable `bearerToken` and that's it :)
+
 ## Authentication
 
 Note! after you register (step 1) new user and log in (step 2) with it, use the `access token` token provided in the response to update postman's
